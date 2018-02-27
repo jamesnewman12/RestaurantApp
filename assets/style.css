@@ -1,0 +1,28 @@
+body{
+    background-image: url("http://restomeson.com/app/uploads/2014/07/2014-05-13_17293010_photo_by_Jimmy_Hamelin-1200x800.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.jumbotron {
+   background: #ffffff80;
+}
+
+div.panel {
+    background: #ffffff80;
+}
+
+
+ .glyphicon {
+  padding: 4px;
+  margin-bottom: 10px;
+  font-size: 6vw;
+  animation: rainbow 1s infinite;
+}
+
+@keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;} 
